@@ -26,7 +26,7 @@ title: Archiwum
           <ul>
         {% endif %}
       {% endunless %}
-        <li><time>{{ post.date | date:"%m - %d" }} - </time>
+        <li><time>{{ post.date | date:"%m.%d" }} - </time>
           <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
             {{ post.title }}
           </a>

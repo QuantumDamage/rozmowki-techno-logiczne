@@ -32,6 +32,6 @@ owner : "Rozmówki Techno Logiczne"
 year : "2020"
 
 google_analytics: "UA-158930420-1"
-excerpt_separator: <!--more-->
+excerpt_separator: "<!--end_excerpt-->"
 
 default_locale: "pl"
