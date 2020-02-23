@@ -1,4 +1,4 @@
-title: Rozmówki Techno Logiczne
+title: "Rozmówki Techno Logiczne"
 description: "Luźny podcast o poważnych technologiach"
 author:
   name: "Damian"
@@ -30,3 +30,6 @@ plugins:
 # Custom variables
 owner : "Rozmówki Techno Logiczne"
 year : "2020"
+
+
+google_analytics: "UA-158930420-1"
