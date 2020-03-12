@@ -6,9 +6,9 @@ layout: default
   <h2>{{ page.title }}</h2>
   <time datetime="{{ page.date | date_to_xmlschema }}" class="by-line">{{ page.date | date: "%d.%m.%Y"  }}</time>
 
-  {% if post.tags.size > 0 %}
-  Tag{% if post.tags.size > 1 %}i{% endif %}:
-  {{ post.tags | sort | join: ", " }}
+  {% if page.tags.size > 0 %}
+  Tag{% if page.tags.size > 1 %}i{% endif %}:
+  {{ page.tags | sort | join: ", " }}
   {% endif %}
 
   {{ content }}
