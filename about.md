@@ -12,8 +12,10 @@ Trójka przyjaciół rozmawia o tematach technologicznych. Na niektórych temata
 *   Karol. Tajemniczy niczym [Stig](https://pl.wikipedia.org/wiki/Stig). Odcinki w których można go usłyszeć: 
 
 
-<ul>
-  {% for tags in page.tags %}
-    <li>{{ tags }}</li>
-  {% endfor %}
+<ul class="tags">
+{% for tag in site.tags %}
+  {% assign t = tag | first %}
+  {% assign posts = tag | last %}
+  <li>{{t | downcase | replace:" ","-" }} has {{ posts | size }} posts</li>
+{% endfor %}
 </ul>
