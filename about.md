@@ -7,6 +7,6 @@ Trójka przyjaciół rozmawia o tematach technologicznych. Na niektórych temata
 
 ## [](#header-2)Zespół
 
-*   Damian. Bloguje na [jakbadacdane.pl](https://jakbadacdane.pl/). Odcinki w których można go usłyszeć: 
+*   Damian. Bloguje na [jakbadacdane.pl](https://jakbadacdane.pl/). Odcinki w których można go usłyszeć: {% site.tags.damian %}
 *   Gosia. Trenuje tancerzy w [Irish Spin](https://taniec-irlandzki.wroclaw.pl/). Odcinki w których można ją usłyszeć: 
 *   Karol. Tajemniczy niczym [Stig](https://pl.wikipedia.org/wiki/Stig). Odcinki w których można go usłyszeć: 
